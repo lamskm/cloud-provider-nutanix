@@ -10,6 +10,7 @@ jobs:
     if: github.repository == 'nutanix-cloud-native/cloud-provider-nutanix'
     runs-on: ubuntu-latest
     steps:
+      - run: echo "here..."
       - name: Checkout
         uses: actions/checkout@v3
 
